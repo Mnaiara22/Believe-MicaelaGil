@@ -4,8 +4,7 @@
 @import "components/header";
 @import "components/index";
 @import "components/info";
-@import "components/lineas";
-
+@import "base/mixins.scss";
 
 body {
     background-color: #FFECEF;

@@ -1,7 +1,7 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/variables";
+@import "../base/mixins";
 
 form {
     margin: 0 auto;
@@ -27,9 +27,8 @@ form {
             width: 470px;
             border-radius: 0;
             display: block;
-            @media screen and (max-width: 970px) {width: 200px;
-            margin: var(--responsive-margin);
-            padding: var(--responsive-padding);}
+            @media screen and (max-width: 970px) 
+            {width: 200px;}
         }
     }
     div {

@@ -6,3 +6,10 @@ $header: (
     transition: all 1s,
 );
 
+$footer: (
+    logo:200px,
+    redes: 50px,
+    margin-footer: 20px,
+    text: nth($colores, 1),
+)
+

@@ -1,10 +1,38 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/variables";
+@import "../base/mixins";
+
+
 
 
 
 .icono-aroma {
     width: 200px;
+}
+
+main {
+    div { 
+        .container { @extend %textos;
+            
+        }
+        div {
+            img {
+                width: 200px; 
+            }
+            div {
+                h2 {
+                    button {
+                        background-color: nth($colores,4);
+                    }
+                }
+                div {
+                    div{
+                        background-color: nth($colores,3);
+                    }
+                }
+            }
+        }
+
+    }
 }
