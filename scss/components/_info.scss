@@ -10,11 +10,23 @@
 
 
 section {
-    h2 {
-    }
-    div {
+
+    .info{
+        margin-top: 10px;
+        background-image: url("https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/fondo.jpg?raw=true");
+        background-size: cover;
+  
         ul{ 
+            h2 {
+                font-size: 40px;
+            }
+            padding: 50px;
+            margin: 80px;
+            background-color: #ffb2b8b9;
+
+            
             list-style:none;
+           
             li {}
 
         }

@@ -19,8 +19,30 @@ section {
 }
 
 
+.paso-compra:hover  {
+
+    transform: scale(1.3);
+    transition: all 1s;
+
+}
 
 
-.como-comprar :hover {
-    transform: map-get($header, transform);
-    transition: map-get($header, transition);}
+@media screen and (max-width: 970px){
+    .paso-compra {
+        
+           display: flex;
+           flex-direction: column; 
+           padding: 10px 50px;
+
+           .paso-compra:hover  {
+
+            transform: none;
+            transition: none;
+        
+            }
+
+           
+
+        }
+
+    }

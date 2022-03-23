@@ -52,7 +52,7 @@ main div {
 }
 
 .btn-info:focus {
-  color: #E1E3DE;
+  color: #642627;
   background-color: #F197A0;
   border-color: #F197A0;
   box-shadow: 0 0 0 0.25rem #E1E3DE;
@@ -208,11 +208,22 @@ section img {
   padding: 50px 80px;
 }
 
-.como-comprar :hover {
+.paso-compra:hover {
   transform: scale(1.3);
   transition: all 1s;
 }
 
+@media screen and (max-width: 970px) {
+  .paso-compra {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+  }
+  .paso-compra .paso-compra:hover {
+    transform: none;
+    transition: none;
+  }
+}
 main div .container, section {
   display: flex;
   justify-content: center;
@@ -226,8 +237,73 @@ main div .container, section {
   background-image: url(https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/FONDO%2016x9%20-%2001.jpg);
 }
 
-section div ul {
+section .info {
+  margin-top: 10px;
+  background-image: url("https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/fondo.jpg?raw=true");
+  background-size: cover;
+}
+section .info ul {
+  padding: 50px;
+  margin: 80px;
+  background-color: #ffb2b8b9;
   list-style: none;
+}
+section .info ul h2 {
+  font-size: 40px;
+}
+main div .container, section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main div .container, section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  /* 4 columnas */
+  grid-template-columns: repeat(4, 1fr);
+  /* 7 filas */
+  grid-template-rows: repeat(7, 500px);
+}
+.grid-container .card-foto {
+  width: 400px;
+  height: auto;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+.grid-container .card-foto img {
+  width: 90%;
+  margin: 10px;
+}
+.grid-container .card-foto p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 970px) {
+  .grid-container {
+    display: grid;
+    /* 2 columnas */
+    grid-template-columns: repeat(2, 1fr);
+    /* 14 filas */
+    grid-template-rows: repeat(14, 350px);
+  }
+  .grid-container .card-foto {
+    width: 200px;
+    height: auto;
+  }
 }
 body {
   background-color: #FFECEF;
