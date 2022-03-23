@@ -7,8 +7,14 @@
 
 
 
+
+
+
+
+
+
 .icono-aroma {
-    width: 200px;
+    width: 400px;
 }
 
 main {
@@ -17,6 +23,7 @@ main {
             
         }
         div {
+
             img {
                 width: 200px; 
             }
@@ -28,11 +35,47 @@ main {
                 }
                 div {
                     div{
-                        background-color: nth($colores,3);
-                    }
-                }
+                        background-color: nth($colores,3);}
+                        }
             }
         }
 
     }
+    div {
+        background-color: #FFECEF;
+        margin: 20px 0px;
+    }
 }
+
+
+.accordion-button:not(.collapsed) {
+    color: #642627;
+    background-color: #FED8DE;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);}
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: #F197A0;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+    }
+
+    .btn-info {
+    color: #642627;
+    background-color: #FED8DE;
+    border-color: #FED8DE;
+
+    }
+
+    .btn-info:hover {
+        color: #642627;
+        background-color: #FFB2B8;
+        border-color: #FFB2B8;
+    }
+    
+    .btn-info:focus {
+        color: #E1E3DE;
+        background-color: #F197A0;
+        border-color: #F197A0;
+        box-shadow: 0 0 0 0.25rem #E1E3DE;
+    }

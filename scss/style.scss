@@ -6,10 +6,13 @@
 @import "components/info";
 @import "base/mixins.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@700&display=swap');
+
 body {
     background-color: #FFECEF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
-
 
 
 

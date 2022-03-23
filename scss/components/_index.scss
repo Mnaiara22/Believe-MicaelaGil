@@ -10,15 +10,17 @@ section {
     img{
         width: 400px;
     }
-    
-    h1 {
-
-    }
-    h2 {
-
-    }
-    h3 {
-
-    }
 }
 
+.introduccion {
+    background-color: nth($colores, 5);
+    width: 95vw;
+    padding: 50px 80px;
+}
+
+
+
+
+.como-comprar :hover {
+    transform: map-get($header, transform);
+    transition: map-get($header, transition);}

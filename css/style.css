@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@700&display=swap");
 section, main div .container {
   display: flex;
   justify-content: center;
@@ -8,17 +9,53 @@ section, main div .container {
 }
 
 .icono-aroma {
-  width: 200px;
+  width: 400px;
 }
 
 main div div img {
   width: 200px;
 }
 main div div div h2 button {
-  background-color: #FFB2B8 4;
+  background-color: #FFB2B8;
 }
 main div div div div div {
-  background-color: #FED8DE 3;
+  background-color: #FED8DE;
+}
+main div {
+  background-color: #FFECEF;
+  margin: 20px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #642627;
+  background-color: #FED8DE;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #F197A0;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-info {
+  color: #642627;
+  background-color: #FED8DE;
+  border-color: #FED8DE;
+}
+
+.btn-info:hover {
+  color: #642627;
+  background-color: #FFB2B8;
+  border-color: #FFB2B8;
+}
+
+.btn-info:focus {
+  color: #E1E3DE;
+  background-color: #F197A0;
+  border-color: #F197A0;
+  box-shadow: 0 0 0 0.25rem #E1E3DE;
 }
 
 section, main div .container {
@@ -34,7 +71,7 @@ form {
   margin: 0 auto;
   width: 600px;
   height: auto;
-  background-color: #FFB2B8 4;
+  background-color: #FFB2B8;
   border-radius: 15px;
   padding: 30px;
 }
@@ -51,7 +88,7 @@ form div label {
 }
 form div input {
   outline: none;
-  border: solid 1px #FFFFFF 1;
+  border: solid 1px #FFFFFF;
   padding: 5px;
   width: 470px;
   border-radius: 0;
@@ -71,7 +108,7 @@ form div {
 }
 form div textarea {
   outline: none;
-  border: solid 1px #642627 6;
+  border: solid 1px #642627;
   padding: 5px;
   font-family: "Montserrat", sans-serif;
   width: 470px;
@@ -94,7 +131,7 @@ form div .btn {
   border-radius: 20px;
   font-weight: 700;
   border: 0;
-  background-color: #F197A0 5;
+  background-color: #F197A0;
 }
 
 section, main div .container {
@@ -117,7 +154,7 @@ footer div div a img {
   margin: 20px;
 }
 footer div p {
-  color: #FFFFFF 1;
+  color: #FFFFFF;
 }
 
 section, main div .container {
@@ -164,6 +201,18 @@ section, main div .container {
 section img {
   width: 400px;
 }
+
+.introduccion {
+  background-color: #F197A0;
+  width: 95vw;
+  padding: 50px 80px;
+}
+
+.como-comprar :hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
 main div .container, section {
   display: flex;
   justify-content: center;
@@ -173,8 +222,17 @@ main div .container, section {
   margin-bottom: 20px;
 }
 
+.tips {
+  background-image: url(https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/FONDO%2016x9%20-%2001.jpg);
+}
+
+section div ul {
+  list-style: none;
+}
 body {
   background-color: #FFECEF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
