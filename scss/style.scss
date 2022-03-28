@@ -5,14 +5,18 @@
 @import "components/index";
 @import "components/info";
 @import "components/fotos";
-@import "base/mixins.scss";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@700&display=swap');
 
 body {
-    background-color: #FFECEF;
+    background-color: nth($colores, 2);
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    &::selection {
+        background-color: nth($colores, 5);
+        color: nth($colores, 1);
+    }
 }
 
 

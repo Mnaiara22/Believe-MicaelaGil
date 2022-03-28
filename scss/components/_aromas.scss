@@ -1,16 +1,6 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/mixins";
-
-
-
-
-
-
-
-
-
 
 
 .icono-aroma {
@@ -20,10 +10,8 @@
 main {
     div { 
         .container { @extend %textos;
-            
         }
         div {
-
             img {
                 width: 200px; 
             }
@@ -39,46 +27,43 @@ main {
                         }
             }
         }
-
     }
     div {
-        background-color: #FFECEF;
+        background-color: nth($colores,2);
         margin: 20px 0px;
     }
 }
 
 
 .accordion-button:not(.collapsed) {
-    color: #642627;
-    background-color: #FED8DE;
+    color: nth($colores,6);
+    background-color: nth($colores,3);
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);}
 
-    .accordion-button:focus {
-        z-index: 3;
-        border-color: #F197A0;
-        outline: 0;
-        box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
-    }
 
-    .btn-info {
-    color: #642627;
-    background-color: #FED8DE;
-    border-color: #FED8DE;
+.accordion-button:focus {
+    z-index: 3;
+    border-color: nth($colores,5);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
 
+.btn-info {
+    color: nth($colores,6);
+    background-color: nth($colores,3);
+    border-color: nth($colores,3);
+    &:hover {
+        color: nth($colores,6);
+        background-color: nth($colores,4);
+        border-color: nth($colores,4);
     }
-
-    .btn-info:hover {
-        color: #642627;
-        background-color: #FFB2B8;
-        border-color: #FFB2B8;
+    &:focus {
+        color: nth($colores,6);
+        background-color: nth($colores,5);
+        border-color: nth($colores,5);
+        box-shadow: 0 0 0 0.25rem nth($colores,7);
     }
-    
-    .btn-info:focus {
-        color: #642627;
-        background-color: #F197A0;
-        border-color: #F197A0;
-        box-shadow: 0 0 0 0.25rem #E1E3DE;
-    }
+}
 
 
 

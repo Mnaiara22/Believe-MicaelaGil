@@ -1,7 +1,7 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/mixins";
+
 
 form {
     margin: 0 auto;
@@ -40,15 +40,15 @@ form {
         margin: 15px;
         textarea { 
             outline: none;
-            border: solid 1px nth($colores, 6);
+            border: none;
             padding: 5px;
             font-family: 'Montserrat', sans-serif;
             width: 470px;
-            border-radius: 5px;
+            border-radius: 20px;
             display: block;
             height: 150px;
             @media screen and (max-width: 970px) {
-                width: 80%;
+                width: 100%;
                 justify-self: center;
             }
         }
@@ -62,7 +62,6 @@ form {
             font-weight: 700;
             border: 0;
             background-color: nth($colores, 5);
-
         }
     }
 }

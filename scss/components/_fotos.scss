@@ -2,28 +2,24 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/mixins";
+
 
 .grid-container{
-display: grid;  
-                    /* 4 columnas */
+    display: grid;  
     grid-template-columns: repeat(4, 1fr); 
-                       /* 7 filas */
     grid-template-rows:  repeat(7, 500px);
-
+    
     .card-foto {
         width: 400px;
         height: auto;
         justify-self: center;
         text-align: center;
         align-items: center;
-        background-color: white;
-
+        background-color: nth($colores,1);
         img {
             width: 90%;
             margin: 10px;
         }
-
         p {
             margin-top: 10px;
         }

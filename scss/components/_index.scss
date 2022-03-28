@@ -1,8 +1,6 @@
 @import "../base/extends";
 @import "../base/listas";
 @import "../base/maps";
-@import "../base/mixins";
-
 
 
 section {
@@ -10,39 +8,29 @@ section {
     img{
         width: 400px;
     }
+    .introduccion {
+        background-color: nth($colores, 5);
+        width: 95vw;
+        padding: 50px 80px;
+    }
 }
 
-.introduccion {
-    background-color: nth($colores, 5);
-    width: 95vw;
-    padding: 50px 80px;
-}
 
-
-.paso-compra:hover  {
-
+.paso-compra:hover {
     transform: scale(1.3);
     transition: all 1s;
-
 }
 
 
-@media screen and (max-width: 970px){
+@media screen and (max-width: 1000px){
     .paso-compra {
-        
            display: flex;
            flex-direction: column; 
            padding: 10px 50px;
 
            .paso-compra:hover  {
-
             transform: none;
             transition: none;
-        
             }
-
-           
-
         }
-
-    }
+ }
