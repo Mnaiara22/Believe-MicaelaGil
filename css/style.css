@@ -277,6 +277,11 @@ section .info ul {
 section .info ul h2 {
   font-size: 40px;
 }
+@media screen and (max-width: 1000px) {
+  section .info ul {
+    padding: 10px;
+  }
+}
 
 main div .container, section {
   display: flex;
@@ -329,6 +334,7 @@ main div .container, section {
 }
 .grid-container .card-foto p {
   margin-top: 10px;
+  font-size: 100%;
 }
 
 body {

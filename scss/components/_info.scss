@@ -18,6 +18,9 @@ section {
             margin: 80px;
             background-color: #ffb2b8b9;
             list-style:none;
+            @media screen and (max-width: 1000px){
+                padding: 10px;}
+            
         }
     }
 }
