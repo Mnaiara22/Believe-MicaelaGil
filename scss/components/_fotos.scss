@@ -8,6 +8,12 @@
     display: grid;  
     grid-template-columns: repeat(4, 1fr); 
     grid-template-rows:  repeat(7, 500px);
+    @media screen and (max-width: 970px){
+        display: grid;  
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(14, 350px);
+        align-items: end;
+        }
     
     .card-foto {
         width: 400px;
@@ -16,6 +22,9 @@
         text-align: center;
         align-items: center;
         background-color: nth($colores,1);
+        @media screen and (max-width: 970px){
+            width: 200px;
+            height: auto;} 
         img {
             width: 90%;
             margin: 10px;
@@ -24,24 +33,4 @@
             margin-top: 10px;
         }
     }
-}
-
-
-@media screen and (max-width: 970px){
-    .grid-container {
-                display: grid;  
-                                /* 2 columnas */
-                grid-template-columns: repeat(2, 1fr); 
-                                   /* 14 filas */
-                grid-template-rows: repeat(14, 350px);
-
-                .card-foto {
-                    width: 200px;
-                    height: auto;
-                }
-    }
- 
-        
-
-
 }

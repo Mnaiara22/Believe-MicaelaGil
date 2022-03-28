@@ -3,17 +3,11 @@
 @import "../base/maps";
 
 
-
-.tips {
-    background-image: url(https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/FONDO%2016x9%20-%2001.jpg);
-}
-
-
 section {
 
     .info{
         margin-top: 10px;
-        background-image: url("https://raw.githubusercontent.com/Mnaiara22/Believe-MicaelaGil/master/images/fondo.avifgit");
+        background-image: url("https://raw.githubusercontent.com/Mnaiara22/Believe-MicaelaGil/master/images/fondo.avif");
         background-size: cover;
   
         ul{ 
@@ -23,12 +17,7 @@ section {
             padding: 50px;
             margin: 80px;
             background-color: #ffb2b8b9;
-
-            
             list-style:none;
-           
-            li {}
-
         }
     }
 }
