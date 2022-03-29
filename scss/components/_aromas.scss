@@ -25,6 +25,20 @@ main {
                     div{
                         background-color: nth($colores,3);}
                         }
+                    .dropdown-menu {
+                        position: absolute;
+                        margin: 0px;
+                        background-color: #fff;
+                        transform: translate(0px, 20px);
+                        border-radius: 0.25rem;
+                        font-size: 1rem;
+                        text-align: center;
+                        z-index: 1000;
+                        background-clip: padding-box;
+                        border: 1px solid rgba(0,0,0,.15);
+                        width: 98%;
+                        padding: 5px;
+                        }
             }
         }
     }
@@ -66,4 +80,5 @@ main {
 }
 
 
+   
 

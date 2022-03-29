@@ -7,7 +7,7 @@
 .grid-container{
     display: grid;  
     grid-template-columns: repeat(4, 1fr); 
-    grid-template-rows:  repeat(7, 500px);
+    grid-template-rows:  repeat(7, 1fr);
     @media screen and (max-width: 970px){
         display: grid;  
         grid-template-columns: repeat(2, 1fr); 
@@ -16,8 +16,10 @@
         }
     
     .card-foto {
-        width: 400px;
-        height: auto;
+        width: 90%;
+        height: 90%;
+        margin: 5px;
+        padding-bottom: 40px;
         justify-self: center;
         text-align: center;
         align-items: center;
@@ -25,13 +27,14 @@
         @media screen and (max-width: 970px){
             width: 200px;
             height: auto;} 
+            padding-bottom: 30px;
         img {
             width: 90%;
             margin: 10px;
         }
         p {
             margin-top: 10px;
-            font-size: 100%;
+            font-size: 1rem;
         }
     }
 }

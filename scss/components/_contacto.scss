@@ -62,10 +62,18 @@ form {
             font-weight: 700;
             border: 0;
             background-color: nth($colores, 5);
+            text-align: center;
+            transition: transform 0.25s ease-in-out;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
         }
     }
 }
 
 .bc-contacto {
-    background-color:  nth($colores, 4)
+    background-color:  nth($colores, 4);
 }
+

@@ -21,6 +21,20 @@ main div div div h2 button {
 main div div div div div {
   background-color: #FED8DE;
 }
+main div div div .dropdown-menu {
+  position: absolute;
+  margin: 0px;
+  background-color: #fff;
+  transform: translate(0px, 20px);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 1000;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 98%;
+  padding: 5px;
+}
 main div {
   background-color: #FFECEF;
   margin: 20px 0px;
@@ -130,6 +144,12 @@ form div .btn {
   font-weight: 700;
   border: 0;
   background-color: #F197A0;
+  text-align: center;
+  transition: transform 0.25s ease-in-out;
+}
+form div .btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .bc-contacto {
@@ -217,6 +237,9 @@ section, main div .container {
   margin-bottom: 20px;
 }
 
+section {
+  margin: 0px;
+}
 section img {
   width: 400px;
 }
@@ -227,7 +250,7 @@ section .introduccion {
 }
 
 .grid-container-index {
-  margin: 10px 50px;
+  margin: 10px 30px;
   padding: 10px 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -304,7 +327,7 @@ main div .container, section {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(7, 500px);
+  grid-template-rows: repeat(7, 1fr);
 }
 @media screen and (max-width: 970px) {
   .grid-container {
@@ -315,12 +338,15 @@ main div .container, section {
   }
 }
 .grid-container .card-foto {
-  width: 400px;
-  height: auto;
+  width: 90%;
+  height: 90%;
+  margin: 5px;
+  padding-bottom: 40px;
   justify-self: center;
   text-align: center;
   align-items: center;
   background-color: #FFFFFF;
+  padding-bottom: 30px;
 }
 @media screen and (max-width: 970px) {
   .grid-container .card-foto {
@@ -334,7 +360,21 @@ main div .container, section {
 }
 .grid-container .card-foto p {
   margin-top: 10px;
-  font-size: 100%;
+  font-size: 1rem;
+}
+
+main div .container, section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titulo-modelos {
+  background-image: url("https://github.com/Mnaiara22/Believe-MicaelaGil/blob/master/images/fondotitulo.png?raw=true");
+  margin: 20px 0px;
 }
 
 body {

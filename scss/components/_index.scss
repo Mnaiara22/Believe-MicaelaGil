@@ -13,10 +13,11 @@ section {
         width: 95vw;
         padding: 50px 80px;
     }
+    margin: 0px;
 }
 
 .grid-container-index{
-    margin: 10px 50px;
+    margin: 10px 30px;
     padding: 10px 100px;
     display: grid;  
     grid-template-columns: repeat(4, 1fr); 
