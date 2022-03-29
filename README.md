@@ -1,0 +1,2 @@
+# Believe-MicaelaGil
+Este proyecto es por ahora una web informativa del emprendimiento de mi mama de velas de soja. En un principio iba a hacer el portfolio de mi papa pero por unos problemas no pude tener la informacion que necesitaba por lo que tuve que buscar un nuevo proyecto. En un futuro me gustaria darle vida a la pagina y poder hacer una tienda online, mismo una app dado que quiero seguir desarrollo de aplicaciones. 
