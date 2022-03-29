@@ -387,4 +387,8 @@ body::selection {
   color: #FFFFFF;
 }
 
+.disclaime {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
